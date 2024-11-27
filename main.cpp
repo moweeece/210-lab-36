@@ -35,6 +35,7 @@ int main() {
     while(true)
     {
         int userChoice;
+        string userNewCode; // for case 4
 
         cout << "BST Menu:\n";
         cout << "=========\n";
@@ -95,7 +96,6 @@ int main() {
             case 4:
                 // modify
                 cout << "Enter a code to modify: ";
-                string userNewCode;
                 getline(cin, code);
 
                 // check if the string exists, if it does ask user for what to change it to
